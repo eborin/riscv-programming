@@ -1,0 +1,3 @@
+[submodule "ale"]
+	path = ale
+	url = https://github.com/antoniocgj/RISC-V-ALE.git
