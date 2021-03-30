@@ -16,23 +16,21 @@
     <link href="jumbotron.css" rel="stylesheet">
   </head>
 
-
-
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./book.html">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./simulator.html">Simulator</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Book</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Simulator</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Other Resources</a>
+            <a class="nav-link" href="./other-resources.html">Other Resources</a>
           </li>
 
         <!-- REMOVE
@@ -64,85 +62,68 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">RISC-V Programming</h1>
-          <p>Welcome to RISC-V programming website...</p>
+          <table>
+            <tbody>
+              <tr>
+                <td style="vertical-align:middle; width:200px">
+                  <img width="200px" src="images/library-books.jpeg"/>
+                </td>
+                <td style="vertical-align:middle; padding-left: 50pt;">
+                  <h1 class="display-5">Other RISC-V Programming Resources</h1>
+                </td>
+              </tr>
+            </tbody>
+          </table>        
         </div>
       </div>
 
       <div class="container">
         <!-- Example row of columns -->
+        <h1>Books</h1>
         <div class="row">
+          <!-- Section -->
           <div class="col-md-6">
-            <h2>The Book</h2>
+            <h2>The RISC-V Reader</h2>
             <table class="table">
               <tbody>
-                <tr>
-                  <td style="width:150px">
-                    <a href="book/riscv-book.html"><img src="images/book-cover-icon.jpg" width="150"/></a>
-                  </td>
-                  <td style="vertical-align:middle">
-                    <p>
-                      A textbook that introduces the main concepts of assembly programming using the RISC-V ISA.
-<!--
-                      The book intitled "<a href="book/riscv-book.html">An Introduction to Assembly Programming with RISC-V</a>" provides ... 
--->
-                    </p>
-                    <p>
-                      <a class="btn btn-secondary" href="#" role="button">More details &raquo;</a>
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>        
-          </div>
-          <div class="col-md-6">
-            <h2>The Simulator</h2>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td style="width:150px">
-                    <a href="ale/"><img src="images/simulator-icon.jpg" width="150"/></a>
-                  </td>
-                  <td style="vertical-align:middle">
-                    <p>
-                      A JavaScript-based simulator that allows students to run RISC-V simulations on the browswer. 
-                    </p>
-<!--
-                    <p>
-                      The <a href="ale/"></a>RISC-V Assembly Learn Environment</a>, or <a href="ale/">ALE</a>, is a JavaScript based environment that allows anyone to run RISC-V simulations on the browswer.
-                      There is no need to install complex simulators and you may run it on Windows, Linux, and OSX!
-                    </p>
-                  -->
-                    <p>
-                      <a class="btn btn-secondary" href="#" role="button">More details &raquo;</a>
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
+              <tr>
+                <td style="vertical-align:middle; width:200px">
+                  <a target="_blank" href="http://riscvbook.com/">
+                    <img width="200px" src="images/risc-v-book-thumbnail.jpeg"/>
+                  </a> 
+                </td>
+                <td style="vertical-align:middle; padding-left: 50pt;">
+                  <p>
+                    The book titled "The RISC-V Reader: An Open Architecture Atlas" (Available at <a target="_blank" href="http://riscvbook.com/">http://riscvbook.com/</a>") provides a concise introduction to the RISC-V Instruction Set Architecture. 
+                  </p>
+                  <p>
+                    There are translations to Chinese, Spanish, and Portuguese, which are made available for free.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
             </table>        
           </div>
 
-          <div class="col-md-4">
-            <h2>Other Resources</h2>
-            <p>
-              <a href="#"><img src="images/library-books.jpeg" width="150"/></a>
-            </p>
-            <p>
-              The <a href="ale/"></a>RISC-V Assembly Learn Environment</a>, or <a href="ale/">ALE</a>, is a JavaScript based environment that allows anyone to run RISC-V simulations on the browswer.
-              There is no need to install complex simulators and you may run it on Windows, Linux, and OSX!
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
-            </p>
-          </div>
-
-          <div class="col-md-4">
-            <h2>Heading</h2>
-
-            
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
+          <!-- Section -->
+          <div class="col-md-6">
+            <h2>Computer Organization and Design</h2>
+            <table class="table">
+              <tbody>
+              <tr>
+                <td style="vertical-align:middle; width:200px">
+                  <a target="_blank" href="https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-820331-6">
+                    <img width="200px" src="images/comp-org-book-thumbnail.jpg"/>
+                  </a> 
+                </td>
+                <td style="vertical-align:middle; padding-left: 50pt;">
+                  <p>
+                    The book titled <a href="https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-820331-6" target="_blank">Computer Organization and Design RISC-V Edition: The Hardware Software Interface, Second Edition</a> ...
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>        
         </div>
 
         <hr>
