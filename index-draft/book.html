@@ -29,10 +29,11 @@
           <li class="nav-item">
             <a class="nav-link" href="./simulator.html">Simulator</a>
           </li>
+          <!--
           <li class="nav-item">
             <a class="nav-link" href="./other-resources.html">Other Resources</a>
           </li>
-
+          -->
         <!-- REMOVE
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Disabled</a>
@@ -85,19 +86,43 @@
           <!-- Section -->
           <div class="col-md-12">
             <h2>Overview</h2>
-            <p>Add content here...</p>
+            <p><a href="book/riscv-book.html" target="_blank">An Introduction to Assembly Programming with RISC-V</a> is a textbook for programmers that want to learn how to program in assembly language.
+            It leverages the RISC-V ISA to guide the reader through the main concepts of assembly programming and the assembly process. 
+            </p> 
+            <p>
+              The book is divided in three parts: I) Introduction to computer systems and assembly language, II) User-level programming, and III) System-level programming.
+            </p>
+            <p>
+              The first part, "Introduction to computer systems and assembly language", starts by providing a brief overview of how computers are organized and how programs are executed by computers. Then, it discusses how data is represented on modern computers, including how numbers and text are represented, how data is organized on the main memory, and how computer instructions are encoded.
+              Next, it discusses how native programs are generated, the assembly process, and the main elements of object (binary) files, including symbols, labels, and references. Finally, it introduces the main elements of the assembly language and some of the most common assembly directives. It is worth noting that most of the concepts introduced in this part are orthogonal to the RISC-V ISA, <i>i.e.,</i> they do not change when programming in assembly language for other ISAs.
+            </p>
+            <p>
+              The second part, user-level programming, focus on the implementation of user software, <i>i.e.</i>, software that performs operations with data that is located on CPU registers and the main memory.  
+              It starts by presenting the basic elements of the RISC-V ISA, including the datatypes, registers and its instructions.
+              Then, it shows how to use RISC-V instructions to implement basic control-flow sentences, such as conditionals and loops.
+              Finally, it introduces the program stack, show how to implement routines, and discuss the elements of the ABI and how it facilitate software composition. 
+              All examples in this part of the book rely on system calls to perform I/O operations.
+            </p>
+            <p>
+              The third part focus on system-level programming, including interacting with peripherals and securing the system against faulty or malicious user programs.
+              It starts by presenting how to write code to directly interact with input and output hardware devices and the concept of busy waiting. 
+              Then, it motivates the need for hardware interrupts and show how to program them on RISC-V ISAs.
+              Finally, it discusses privilege levels and how software interrupts and exceptions may be used to protect RISC-V systems from faulty or malicious user programs.
+            </p>
           </div>
 
           <!-- Section -->
           <div class="col-md-12">
-            <h2>Contents</h2>
-            <p>Add content here...</p>
-          </div>
+            <h2>Main difference from other RISC-V books</h2>
+            <p>While other RISC-V books focus on the ISA design decisions and its details, this book focus on teaching assembly programming. 
+            </p>
+        </div>
 
           <!-- Section -->
           <div class="col-md-12">
             <h2>Target audience</h2>
-            <p>Add content here...</p>
+            <p>This book is intended for people that have basic knowledge of computer programming using high-level languages and want to learn assembly programming. 
+            <!-- Computer Science and Computer Engineering Undergraduate students may benefit from... -->
           </div>
         </div>
 
