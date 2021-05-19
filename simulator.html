@@ -95,22 +95,76 @@
         <!-- Example row of columns -->
         <div class="row">
 
-          <!-- Section -->
           <div class="col-md-12">
             <h2>Overview</h2>
             <p>
-              The <a href="ale/"></a>RISC-V Assembly Learn Environment</a>, or <a href="ale/">ALE</a>, is a JavaScript based environment that allows anyone to run RISC-V simulations on the browswer.
-              There is no need to install complex simulators and you may run it on Windows, Linux, and OSX!
+              The <a href="ale/"></a>RISC-V Assembly Learn Environment</a>, or <a href="ale/">ALE</a>, is an environment designed to support the execution and test of RISC-V programs. 
+            </p>
+          </div>
+          <div class="col-md-12">
+            <h2>Hassle-free use</h2>
+            <p>
+              ALE is based on JavaScript and runs directly on the browser!
+              In other words, there is no need to install complex simulation softwares and you may run it on Windows, Linux, and OSX. 
+              It works even on mobile operating systems!
+            </p>
+            <p>
+              The simulator can also be easily installed for offline use as a progressive web application (<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">PWA</a>)
+            </p>
+
+          </div>
+          <div class="col-md-12">
+            <h2>System Calls Emulation</h2>
+            <p>
+              The simulator emulates a set of pre-defined system calls, including open, read, write, and close, allowing users to interact with the terminal.
+            </p>
+            <!-- TODO: state that this set can be extended with JS code. -->
+            <p>
+              C programs that require a minimum support from the operating system may be linked with NewLib for execution on ALE!
+            </p>
+          </div>
+          <div class="col-md-12">
+            <h2>Hardware Peripherals</h2>
+            <p>
+              ALE comes with a set of modules that emulate hardware peripherals. 
+              The environment can be easily configured to use all, or a subset of these modules, to emulate different kinds of systems.
+              So far, the system emulates a General Purpose Timer (GPT), a MIDI sound synthesizer, a small robot called Uóli, and a self-driving car with multiple peripherals! 
             </p>
           </div>
 
+          <div class="col-md-12">
+            <h2>Automatic Feedback</h2>
+            <p>
+              ALE can be configured by instructors to provide automatic feedback about the code execution or to verify its output for correctness.
+            </p>
+          </div>
+
+          <div class="col-md-12">
+            <h2>ISA Extensions</h2>
+            <p>
+              The RISC-V ALE uses the Western Digital SweRV simulator, which allows the user to select among several RISV-V ISA extensions to extend the basic RV32 ISA!
+            </p>
+          </div>
+
+          <div class="col-md-12">
+            <h2>Easy integration with other environments</h2>
+            <p>
+              ALE has an API that allows other environments to directly load RISC-V programs for execution on it.
+              With this feature, users can directly load programs from Colab into ALE.
+              For an example, check-out the <a target="_blank" href="https://colab.research.google.com/drive/1PM-3ulMFqeo4Ce2hIwir3IftcWyQ0SMh?usp=sharing">Assembling RISC-V programs with Colab</a> notebook. 
+            </p> 
+          </div>
+  
           <!-- Section -->
           <div class="col-md-12">
             <h2>Getting started</h2>
-            <p>To get started on the simulator see 
-              <a href="https://riscv-programming.org/ale/#select_url_content=TjRJZ3RnaGdsZ2RnK2dCd2djd0tZZ0Z3Z0hRSG9BbUVBTGhMZ0JaRmdBMnVhUlJzeWNBemlRRTVHcjdZWFVnQTBJQ00yWlJXRUdFUllCak5sQVJGTUlBU0drQjdHQURNb3lUS0RVS29HNW50VWJ0VE1SQUNDbUltd0N1cVFlcTA2NFZnTUozSHpzMjh0bUNBQVJIeWNYYzNjckFERXd2MWNMRHlDQVNUaUlnS1NJQUZrMC0wU3JBR1ZjaEtpZ2dGVmMxQmdJQUNNcVZCWTFPR2t5VkdrQWF4cTFBQTljNWlieERzUTFXRTQyT0FBM0NDb25KUUFHYm9CMmFKV1Y3MEVhaDJZNFRUWlVBRWNuR0drQVR6ZzJDVFFsQUdZNWtBQmZRV1lUNW1scHFoTU1ZRWVRZkZRSnFEU1ZDZmI3M2U1QUE=">link</a>.
-          </p>
-        </div>
+
+            <p>
+              The easiest way to get started is to follow the instructions at the
+              <a target="_blank" href="https://colab.research.google.com/drive/1PM-3ulMFqeo4Ce2hIwir3IftcWyQ0SMh?usp=sharing">Assembling RISC-V programs with Colab</a> notebook. 
+            </p>
+
+          </div>
         </div>
 
         <hr>
