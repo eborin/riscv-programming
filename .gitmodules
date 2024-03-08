@@ -1,3 +1,6 @@
 [submodule "ale"]
 	path = ale
 	url = https://github.com/antoniocgj/RISC-V-ALE.git
+[submodule "ale-exercise-book"]
+	path = ale-exercise-book
+	url = https://github.com/discovery-unicamp/ale-exercise-book.git
