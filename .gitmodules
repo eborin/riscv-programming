@@ -4,3 +4,6 @@
 [submodule "ale-exercise-book"]
 	path = ale-exercise-book
 	url = https://github.com/discovery-unicamp/ale-exercise-book.git
+[submodule "ale-manual"]
+	path = ale-manual
+	url = https://github.com/discovery-unicamp/ale-manual.git
